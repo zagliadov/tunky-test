@@ -1,0 +1,17 @@
+.link {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.72px;
+  line-height: 107%;
+}
+.not_active_link-color {
+  color: #ffffff;
+  text-decoration: none;
+  text-decoration-color: "none";
+}
+.active_link {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: "FFFFFF";
+}
