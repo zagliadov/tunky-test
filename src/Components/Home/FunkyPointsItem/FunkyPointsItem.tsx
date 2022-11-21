@@ -7,10 +7,10 @@ export const FunkyPointsItem: React.FC = () => {
     <Grid
       item
       xs={12}
-      md={6}
+      md={3}
       sx={{
         display: "flex",
-        justifyContent: "center",
+        justifyContent: {xs: "center", md: "start"},
         alignItems: "center",
         borderRadius: "10px",
       }}

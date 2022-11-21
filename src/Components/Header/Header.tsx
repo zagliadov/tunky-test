@@ -6,7 +6,7 @@ import { Box, Grid } from "@mui/material";
 import { BurgerBox } from "./BurgerBox/BurgerBox";
 import { NavBox } from "./NavBox/NavBox";
 import { LogoBox } from "./LogoBox/LogoBox";
-import { ProfileBox } from "./PrifileBox/ProfileBox";
+import { ProfileBox } from "./ProfileBox/ProfileBox";
 
 export const Header: React.FC = () => {
   return (
@@ -30,14 +30,18 @@ export const Header: React.FC = () => {
               alignItems: "center",
             }}
           >
-            <Grid item xs={6} md={5} sx={{ order: { xs: "2", ms: "1" } }}>
+            <Grid item xs={4} md={5} sx={{ order: { xs: "2", ms: "1" } }}>
               <NavBox />
               <BurgerBox />
             </Grid>
-            <Grid item xs={6} md={3} sx={{ order: { xs: "1", md: "2" } }}>
+            <Grid item xs={8} md={3} sx={{ order: { xs: "1", md: "2" } }}>
               <LogoBox />
             </Grid>
-            <Grid item xs={4} sx={{ order: "3" }}>
+            <Grid item md={4} sx={{ 
+              order: "3",
+              display: "flex",
+              justifyContent: "end",
+              }}>
               <ProfileBox />
             </Grid>
           </Grid>

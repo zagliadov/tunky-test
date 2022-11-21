@@ -18,6 +18,7 @@ export const BurgerBox: React.FC = () => {
     <Box
       sx={{
         display: { xs: "flex", md: "none" },
+        justifyContent: "flex-end",
         order: "2",
       }}
     >
