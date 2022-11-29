@@ -6,7 +6,7 @@ import { FunkyPointsItem } from "./FunkyPointsItem/FunkyPointsItem";
 export const Home: React.FC = () => {
   return (
     <Container
-      maxWidth="lg"
+      maxWidth={false}
       sx={{
         background: "linear-gradient(0deg, #000000 00%, #000000 100%)",
       }}
