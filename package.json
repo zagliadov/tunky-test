@@ -3,6 +3,9 @@
   "private": true,
   "homepage": "http://zagliadov.github.io/tunky-test",
   "version": "0.0.0",
+  "engines": {
+    "node": "18.10.0"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
